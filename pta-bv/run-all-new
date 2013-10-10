@@ -1,0 +1,10 @@
+#! /bin/bash
+BMDIR=spark-dacapo/2009-bach/splash12
+
+#./main "${BMDIR}/${BM}-pag-st" 2> "${BM}$_jre14218.out"
+for BM in \
+	avrora batik h2 sunflow tomcat; \
+do \
+  echo ./main "${BMDIR}/${BM}-pag-nst" 
+  ./main "${BMDIR}/${BM}-pag-nst" 
+done

@@ -1,0 +1,9 @@
+#! /bin/bash
+BMDIR=spark-dacapo/jre16
+
+#./main "${BMDIR}/${BM}-pag-st" 2> "${BM}$_jre14218.out"
+for BM in \
+	antlr bloat chart eclipse fop hsqldb jython luindex lusearch pmd xalan; \
+do \
+  ./main "${BMDIR}/${BM}-pag-nst" 
+done

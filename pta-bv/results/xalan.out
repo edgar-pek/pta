@@ -1,0 +1,24 @@
+Parsing SPARK's PAG file spark-dacapo/jre14/xalan-pag-st ...
+@timer 1: 0
+ParsePAG info: 
+------------------------------------------------
+max var id      : 0
+max heap id     : 0
+max field id    : 0
+max dec type id : 0
+max act type id : 0
+alloc rel size  : 0
+assign rel size : 0
+store rel size  : 0
+load rel size   : 0
+decl type size  : 0
+alloc type size : 0
+var type size   : 0
+-------------------------------------------------
+	[DONE] 
+the initial worklist size : 0
+SCC and topological sorting ...
+Propagation time       : 0 s.
+Propagation iterations : 0
+Points-to size         : 0
+Total time             : 0 s.
